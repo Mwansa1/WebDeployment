@@ -62,4 +62,4 @@ def seacrh_by_title():
 #     return render_template("list.html", movies=top_rated_movies)
         
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=True)
