@@ -5,6 +5,7 @@ import json
 # from turbo_flask import Turbo
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 upcoming_movies = get_upcoming_movies()
 now_playing = get_now_playing_movies()
